@@ -1,0 +1,31 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+h1{
+    padding-top: 2%;
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+    padding: 1%;
+}
+
+img {
+    height: 450px;
+    width: 350px;
+    padding: 1%;
+    align-items: center;
+}
+
+section.recipes{
+    align-content: center;
+    margin: 1%;
+}
+
+p.home{
+    margin-left: 15px;
+}
+
