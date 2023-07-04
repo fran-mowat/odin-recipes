@@ -9,6 +9,11 @@ h1{
     text-align: center;
 }
 
+h1.home{
+    display: inline-flex;
+    margin-left: 50%;
+}
+
 div{
     display: inline-block;
     padding: 1%;
@@ -41,4 +46,9 @@ p.home{
 
 section.reppage{
     column-count: 2;
+}
+
+img.homebutton{
+    height: 45px;
+    width: 50px;
 }
