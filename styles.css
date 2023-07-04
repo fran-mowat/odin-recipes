@@ -1,6 +1,7 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+    line-height: 1.6;
 }
 
 h1{
@@ -20,6 +21,10 @@ img {
     align-items: center;
 }
 
+.foodimg{
+    padding-left: 10%;
+}
+
 section.recipes{
     align-content: center;
     margin: 1%;
@@ -29,3 +34,19 @@ p.home{
     margin-left: 15px;
 }
 
+.Ingredients{
+    margin: auto;
+    padding-left: 10%;
+}
+
+.Method{
+    
+}
+
+.Description{
+    
+} 
+
+section.reppage{
+    column-count: 2;
+}
