@@ -10,8 +10,9 @@ h1{
 }
 
 h1.home{
-    display: inline-flex;
+    display: inline-block;
     margin-left: 50%;
+    text-align: center;
 }
 
 div{
