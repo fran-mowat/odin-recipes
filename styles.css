@@ -80,7 +80,7 @@ img{
 }
 
 .ingredients img{
-   width: 100%;
+   width: min(100%, 350px);
    display: block;
    margin: auto;
 }
