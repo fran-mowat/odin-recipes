@@ -1,6 +1,13 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    --navy: rgb(3, 3, 55);
+    --blue: #a8cde9;
+}
+
+body{
+    background-color: var(--blue);
+    color: var(--navy);
+    margin: 0;
 }
 
 h1{
@@ -30,6 +37,7 @@ h1{
 
 .recipes a{
     text-decoration: none;
+    color: var(--navy);
     text-align: center;
     font-size: 18px;
     padding: 15px;
@@ -89,4 +97,17 @@ img{
     .ingredients img{
         width: 350px;
     }
+}
+
+footer{
+    background-color: var(--navy);
+    color: var(--blue);
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+footer a{
+    color: var(--blue);
 }
