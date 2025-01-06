@@ -1,50 +1,56 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    line-height: 1.6;
+    --blue: rgb(50, 148, 209);
 }
 
 h1{
-    padding-top: 2%;
     text-align: center;
+    margin: 40px 30px;
 }
 
-h1.home{
-    display: inline-block;
-    margin-left: 50%;
+.recipes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin: 30px;
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+    .recipes{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .recipes{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.recipes a{
+    text-decoration: none;
     text-align: center;
-    vertical-align: top;
-    padding-top: 0%;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 5px;
 }
 
-div{
-    display: inline-block;
-    padding: 1%;
+.recipes a:hover{
+    box-shadow: 0px 0px 10px rgb(81, 81, 81);
 }
 
-img {
-    height: 450px;
-    width: 350px;
-    padding: 1%;
-    align-items: center;
+img{
+    width: 100%;
 }
 
-.foodimg{
-    padding: 3% 15%;
-    vertical-align: top;
-}
+
+
+
 
 .Description{
     vertical-align: top;
-}
-
-section.recipes{
-    align-content: center;
-    margin: 1%;
-}
-
-p.home{
-    margin-left: 15px;
 }
 
 .Ingredients{
