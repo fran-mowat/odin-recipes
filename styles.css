@@ -45,25 +45,37 @@ img{
     width: 100%;
 }
 
-
-
-
-
-.Description{
-    vertical-align: top;
+.home{
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
 
-.Ingredients{
-    margin: auto;
-    padding-left: 10%;
+.home:hover img{
+    filter: opacity(0.65);
 }
 
-section.reppage{
-    column-count: 2;
+.home img{
+    width: 40px;
 }
 
-img.homebutton{
-    height: 45px;
-    width: 50px;
-    padding-top: 2%;
+.description, .method{
+    margin: 30px; 
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    height: fit-content;
+    margin: 0 30px;
+}
+
+.ingredients img{
+   width: 350px;
+}
+
+.ingredients p{
+    margin: 0;
 }
