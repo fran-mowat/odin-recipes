@@ -1,7 +1,6 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    --blue: rgb(50, 148, 209);
 }
 
 h1{
@@ -65,7 +64,7 @@ img{
 
 .ingredients{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     gap: 30px;
     height: fit-content;
@@ -73,9 +72,21 @@ img{
 }
 
 .ingredients img{
-   width: 350px;
+   width: 100%;
+   display: block;
+   margin: auto;
 }
 
 .ingredients p{
     margin: 0;
+}
+
+@media (min-width: 700px) {
+    .ingredients{
+        flex-direction: row;
+    }
+
+    .ingredients img{
+        width: 350px;
+    }
 }
